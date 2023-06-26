@@ -4,7 +4,7 @@ import './home.scss'
 import { useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/animatedletters'
 
-const Home = () => {
+const Home = (props) => {
   const [letterClass, setletterClass] = useState('text-animate')
   const nameArray = [
     'H',
