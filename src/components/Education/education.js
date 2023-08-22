@@ -2,31 +2,75 @@ import { useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/animatedletters'
 import './education.scss'
 import '../Layout/index.scss'
+import bldimg from '../../assets/images/building.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faBriefcase,
+  faBuilding,
+  faBuildingCircleArrowRight,
+  faBuildingFlag,
+  faClock,
+  faTimeline,
+} from '@fortawesome/free-solid-svg-icons'
 
 const Education = () => {
   const [letterClass, setletterClass] = useState('text-animate')
   return (
-    <div className="text-zone">
-      <h1>
-        <AnimatedLetters
-          letterClass={letterClass}
-          strArray={['E', 'd', 'u', 'c', 'a', 't', 'i', 'o', 'n']}
-          idx={15}
-        />
-      </h1>
-      <p>
-        I am a fresher seeking for an entry-level position to begin my career in
-        a high-level professional environment. Equipped with a diverse and
-        promising skill-set.
-      </p>
+    <div className="container education-page">
+      <div className="text-zone">
+        <h1>
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={['E', 'x', 'p', 'e', 'r', 'i', 'a', 'n', 'c', 'e']}
+            idx={15}
+          />
+        </h1>
 
-      <p>
-        I am proficient and comfortable working with a range of programming
-        languages, frameworks and databases including Java, Angular, ReactJS,
-        Python, NodeJS, MongoDB and MySQL.
-      </p>
+        <div className="grid-container">
+          <div className="grid-item">
+            <grid-title>Frontend Developer Intern</grid-title>
+            <br />
+            <grid-sub-title>
+              <FontAwesomeIcon icon={faBuilding} />
+              &nbsp; Iraitech Innovations & Technologies Pvt. Ltd
+            </grid-sub-title>
+            <br />
+            <grid-date>
+              <FontAwesomeIcon icon={faClock} />
+              &nbsp;Dec 2022 - Apr 2023
+            </grid-date>
+            <hr />
+            <grid-summary>
+              <ul>
+                <li>
+                  Implemented Micro services in order to maintain the project
+                  size.
+                </li>
+                <li>
+                  Assisted in designing and implementing responsive and
+                  user-friendly web interfaces
+                </li>
+                <li>
+                  Worked with testing and development teams simultaneously
+                </li>
+                <li>
+                  Worked on SEO related points resulting in increase of website
+                  visibility & reducing the loading time.
+                </li>
+              </ul>
+            </grid-summary>
 
-      <p>..... not complete !</p>
+            <div className="grid-chips-exp-div">
+              <br />
+              <grid-chips-exp>Angular</grid-chips-exp>
+              <grid-chips-exp>ReactJS</grid-chips-exp>
+              <grid-chips-exp>Bootstrap</grid-chips-exp>
+              <grid-chips-exp>Search Engine Optimization</grid-chips-exp>
+              <grid-chips-exp>NextJS</grid-chips-exp>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

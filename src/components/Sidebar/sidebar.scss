@@ -1,5 +1,6 @@
 .nav-bar {
   background: #181818;
+  // background: #fff;
   width: 80px;
   height: 100%;
   position: absolute;
@@ -14,8 +15,8 @@
     img {
       display: block;
       margin: 8px auto;
-      width: 50px;
-      height: auto;
+      width: 60px;
+      height: 50px;
 
       &.sub-logo {
         width: 50px;
@@ -33,6 +34,7 @@
     width: 100%;
 
     a {
+      font-weight: 600;
       font-size: 22px;
       color: #4d4d4e;
       display: block;
@@ -46,7 +48,8 @@
       }
 
       &:hover {
-        color: #ffd700;
+        // color: #ffd700;
+        color: seagreen;
 
         svg {
           opacity: 0;
@@ -89,15 +92,22 @@
       }
     }
 
+    a.project-link {
+      &::after {
+        content: 'PROJECTS';
+      }
+    }
+
     a.education-link {
       &::after {
-        content: 'EDUCATION';
+        content: 'EXPERIENCE';
       }
     }
 
     a.active {
       svg {
-        color: #ffd700;
+        // color: #ffd700;
+        color: seagreen;
       }
     }
   }
@@ -121,7 +131,7 @@
         line-height: 16px;
 
         &:hover svg {
-          color: #ffd700;
+          color: seagreen;
         }
       }
     }

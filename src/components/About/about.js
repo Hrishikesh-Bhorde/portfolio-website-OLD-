@@ -37,7 +37,6 @@ const About = () => {
 
         <p>..... not complete !</p>
       </div>
-
       <div className="stage-cube-cont">
         <div className="cubespinner">
           <div className="face1">

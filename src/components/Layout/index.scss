@@ -10,7 +10,8 @@
 }
 
 .tags {
-  color: #ffd700;
+  //color: #ffd700;
+  color: black;
   opacity: 0.6;
   position: absolute;
   bottom: 0;
@@ -41,11 +42,13 @@
 .container.contact-page,
 .container.about-page,
 .container.portfolio-page,
-.container.education-page {
+.container.education-page,
+.container.project {
   h1 {
     font-size: 53px;
     font-family: 'Coolvetica';
-    color: #ffd700;
+    // color: #ffd700;
+    color: seagreen;
     font-weight: 400;
     margin-top: 0;
     position: relative;
@@ -55,7 +58,8 @@
     &:before {
       content: '<h1>';
       font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      // color: #ffd700;
+      color: black;
       font-size: 18px;
       position: absolute;
       margin-top: -10px;
@@ -67,7 +71,8 @@
     &:after {
       content: '<h1/>';
       font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      //color: #ffd700;
+      color: black;
       font-size: 18px;
       line-height: 18px;
       position: absolute;
@@ -104,7 +109,7 @@
     width: 35%;
     vertical-align: middle;
     display: table-cell;
-    max-height: 90%;
+    height: fit-content;
   }
 
   .text-animate-hover {

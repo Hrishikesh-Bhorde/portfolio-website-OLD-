@@ -1,0 +1,108 @@
+.container-projects {
+  margin-top: 70px;
+  margin-left: 120px;
+  width: 90%;
+  height: 590px;
+  //   border: 0.5px solid #dad8cd;
+
+  h1 {
+    color: seagreen;
+    margin-left: 20pt;
+    font-size: 36px;
+    font-weight: 600;
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  animation-delay: 3s;
+  animation: fadeIn 10s forwards;
+  padding: 10px;
+}
+
+.grid-item {
+  //   background-color: burlywood;
+
+  // max-width: 300px;
+  margin: 8px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  //   background-color: #dad8cd;
+  padding: 20px;
+  text-align: center;
+  color: #181818;
+
+  &:hover {
+    background: #181818;
+    color: #ffffffaa !important;
+
+    grid-summary-projects {
+      font-weight: lighter;
+    }
+
+    hr {
+      border: 1px solid #ffffff6f;
+    }
+    a {
+      color: #fff;
+    }
+  }
+
+  hr {
+    border: 1px solid black;
+  }
+
+  grid-title {
+    color: seagreen;
+    font-family: Verdana;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  a {
+    color: #181818;
+
+    // &:hover {
+    //   color: #fff;
+    // }
+  }
+}
+
+.grid-chips-div {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+grid-chips {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 5px;
+  margin-top: 15px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: seagreen;
+}
+
+// .github-btn {
+//   padding: 5px 10px;
+//   text-decoration: none;
+//   border: none;
+//   border-radius: 6px;
+//   background-color: none;
+//   box-shadow: none;
+//   color: #090909;
+//   cursor: pointer;
+// }
+
+grid-summary-projects {
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  // font-weight: 200;
+  font-size: 16px;
+  width: 120px;
+  font-family: sans-serif;
+}

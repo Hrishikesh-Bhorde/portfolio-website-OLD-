@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-
+import LogoS from '../../assets/images/sample-logo.png'
 import './home.scss'
 import { useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/animatedletters'
@@ -74,15 +74,24 @@ const Home = (props) => {
           <br />
           Hrishikesh Bhorde
           <br />
-          Web Developer
+          Software Developer
         </h1> */}
 
-        <h2>Fullstack Developer | CyberSecurity | Cloud Engineer</h2>
+        <h2>Fullstack Developer | Web Developer | Cloud Engineer</h2>
 
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
       </div>
+      <ImageDiv />
+    </div>
+  )
+}
+
+const ImageDiv = () => {
+  return (
+    <div className="logo-img">
+      <img src={LogoS}></img>
     </div>
   )
 }
