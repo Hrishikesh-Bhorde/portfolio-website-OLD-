@@ -77,7 +77,7 @@ const Home = (props) => {
           Software Developer
         </h1> */}
 
-        <h2>Fullstack Developer | Web Developer | Cloud Engineer</h2>
+        <h2>Fullstack Developer | Web Developer | Android Developer </h2>
 
         <Link to="/contact" className="flat-button">
           CONTACT ME

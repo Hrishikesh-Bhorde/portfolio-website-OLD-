@@ -16,7 +16,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  animation-delay: 3s;
+  animation-delay: 1s;
   animation: fadeIn 10s forwards;
   padding: 10px;
 }
@@ -28,7 +28,7 @@
   margin: 8px;
   padding: 10px;
   border: 2px solid black;
-  border-radius: 10px;
+  border-radius: 30px;
   //   background-color: #dad8cd;
   padding: 20px;
   text-align: center;

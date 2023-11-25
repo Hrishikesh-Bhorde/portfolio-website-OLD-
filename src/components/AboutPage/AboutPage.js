@@ -57,7 +57,8 @@ const AboutPage = () => {
           <li>
             Proficient and comfortable working with a range of programming
             languages, frameworks and databases including Java, Angular,
-            ReactJS, Python, NodeJS, MongoDB and MySQL.
+            ReactJS, Python, NodeJS, MongoDB, MySQL and Cloud Technologies like
+            AWS & GCP.
           </li>
         </ul>
 
@@ -118,7 +119,7 @@ const AboutPage = () => {
           </div>
           <div className="grid-item-about">
             {' '}
-            <FontAwesomeIcon icon={faJs} color="#E8D44D" size="6x" />
+            <FontAwesomeIcon icon={faJs} color="#F9B90C" size="6x" />
           </div>
         </div>
       </div>
